@@ -1,4 +1,4 @@
-#Tidying and Summarizing "Human Activity Recognition Using Smartphones Dataset" data
+# Tidying and Summarizing "Human Activity Recognition Using Smartphones Dataset" data
 ## Read Me
 
 The R script titled "runAnalysis.R" reads the following eight source data files from the "Human Activity Recognition Using Smartphones Dataset" (data found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
@@ -37,4 +37,4 @@ The new dataset is then subsetted to include the ID variables and measure variab
 
 The script then creates a summary dataset showing the average of each measure variable for each combination of subject (participant).
 
-To do this, it first melts the tidy dataset. Then it groups the melted dataset 
+To do this, it first melts the tidy dataset. Then it groups the melted dataset by activity label, subject (participant), and measure variable. Then, the script calls the summarize function on the grouped, melted dataset to show the mean value of each measure variable, for each participant and each activity.
