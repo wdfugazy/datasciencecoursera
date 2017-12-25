@@ -1,4 +1,4 @@
-#Tidying and Summarizing "Human Activity Recognition Using Smartphones Dataset" data
+# Tidying and Summarizing "Human Activity Recognition Using Smartphones Dataset" data
 ## Read Me
 
 The R script titled "runAnalysis.R" reads the following eight source data files from the "Human Activity Recognition Using Smartphones Dataset" (data found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
