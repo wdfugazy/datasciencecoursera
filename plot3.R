@@ -22,7 +22,7 @@ plot(dat_sub$DateTime, dat_sub$Sub_metering_1,
 lines(dat_sub$DateTime, dat_sub$Sub_metering_2, col = "Red")
 lines(dat_sub$DateTime, dat_sub$Sub_metering_3, col = "Blue")
 
-legend("topright", col = c("Black", "Red", "Blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = c(1,1), lwd = c(1,1))
+legend("topright", col = c("Black", "Red", "Blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, lwd = 1)
 
 dev.copy(png, file = "plot3.png")
 
